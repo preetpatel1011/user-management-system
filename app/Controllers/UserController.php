@@ -34,7 +34,6 @@ class UserController extends Controller
      */
     public function dashboard()
     {
-        // require __DIR__ . '/../Middleware/isUser.php';
         $user = $_SESSION['user'];
         $profile = null;
         $websiteName = '';
@@ -58,7 +57,6 @@ class UserController extends Controller
      * @return void
      */
     public function edit() {
-        // require __DIR__ . '/../Middleware/isUser.php';
 
         $user = $_SESSION['user'];
 
@@ -79,7 +77,6 @@ class UserController extends Controller
      */
     public function update()
     {
-        // require __DIR__ . '/../Middleware/isUser.php';
 
         try {
             
@@ -158,7 +155,6 @@ class UserController extends Controller
      */
     public function showChangePasswordForm()
     {
-        // require __DIR__ . '/../Middleware/isUser.php';
         
         $user = $_SESSION['user'];
         $this->view('users/change_password', ['user' => $user]);
@@ -170,7 +166,6 @@ class UserController extends Controller
      */
     public function changePassword()
     {
-        // require __DIR__ . '/../Middleware/isUser.php';
         try {
             if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $userId = $_SESSION['user']['id'];
@@ -215,5 +210,75 @@ class UserController extends Controller
             $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
             $_SESSION['error'] = "Something went wrong please refresh";
         }
+    }
+
+    /**
+     * Summary of adminUpdateUserApprovedStatus - Admin manages the user approve status.
+     * @return void
+     */
+    public function approvedStatus(): void
+    {
+        try {
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                $id = Sanitize::int($_POST['id'] ?? 0);
+                $status = Sanitize::string($_POST['status'] ?? '');
+
+                if ($id && ($status === '0' || $status === '1')) {
+                    $this->adminService->updateUserApprovalStatus($id, (int)$status);
+                }
+                    
+                header('Location: /admin/users');
+                exit;
+            }
+        } catch (\Exception $e) {
+            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
+            $_SESSION['error'] = "Something went wrong please refresh";
+        }
+    }
+
+    /**
+     * Summary of adminUpdateUserActiveStatus - admin can change the user active status
+     * @return void
+     */
+    public function activeStatus(): void
+    {
+        try {
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                $id = Sanitize::int($_POST['id'] ?? 0);
+                $status = Sanitize::string($_POST['is_active'] ?? '');
+                    
+                if ($id && ($status === '0' || $status === '1')) {
+                    $this->adminService->updateUserActiveStatus($id, (int)$status);
+                }
+                    
+                header('Location: /admin/users');
+                exit;
+                }
+        } catch (\Exception $e) {
+            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
+            $_SESSION['error'] = "Something went wrong please refresh";
+        }
+    }
+
+    /**
+     * Summary of destroy - To soft delete the user's profile
+     * @return void
+     */
+    public function destroy(): void
+    {
+       
+        try {
+            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                $id = Sanitize::int($_POST['id'] ?? 0);
+    
+                $this->adminService->deleteUser($id);
+    
+                header('Location: /admin/users');
+            }
+        } catch (\Exception $e) {
+            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
+            $_SESSION['error'] = "Something went wrong please refresh";
+        }
+
     }
 }

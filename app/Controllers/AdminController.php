@@ -184,29 +184,6 @@ class AdminController extends Controller
     }
 
     /**
-     * Summary of destroy - To soft delete the user's profile
-     * @return void
-     */
-    public function destroy(): void
-    {
-        // require __DIR__ . '/../Middleware/isAdmin.php';
-        
-        try {
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $id = Sanitize::int($_POST['id'] ?? 0);
-    
-                $this->adminService->deleteUser($id);
-    
-                header('Location: /admin/users');
-            }
-        } catch (\Exception $e) {
-            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
-            $_SESSION['error'] = "Something went wrong please refresh";
-        }
-
-    }
-
-    /**
      * Summary of editProfile - To show admin updates profile form
      * @return void
      */
@@ -309,59 +286,6 @@ class AdminController extends Controller
             $_SESSION['error'] = "Something went wrong please refresh";
         }
     }
-
-    /**
-     * Summary of adminUpdateUserApprovedStatus - Admin manages the user approve status.
-     * @return void
-     */
-    public function updateApprovedStatus(): void
-    {
-        // require __DIR__ . '/../Middleware/isAdmin.php';
-
-        try {
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $id = Sanitize::int($_POST['id'] ?? 0);
-                $status = Sanitize::string($_POST['status'] ?? '');
-
-                if ($id && ($status === '0' || $status === '1')) {
-                    $this->adminService->updateUserApprovalStatus($id, (int)$status);
-                }
-                    
-                header('Location: /admin/users');
-                exit;
-            }
-        } catch (\Exception $e) {
-            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
-            $_SESSION['error'] = "Something went wrong please refresh";
-        }
-    }
-
-    /**
-     * Summary of adminUpdateUserActiveStatus - admin can change the user active status
-     * @return void
-     */
-    public function updateActiveStatus(): void
-    {
-        // require __DIR__ . '/../Middleware/isAdmin.php';
-
-        try {
-            if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                $id = Sanitize::int($_POST['id'] ?? 0);
-                $status = Sanitize::string($_POST['is_active'] ?? '');
-                    
-                if ($id && ($status === '0' || $status === '1')) {
-                    $this->adminService->updateUserActiveStatus($id, (int)$status);
-                }
-                    
-                header('Location: /admin/users');
-                exit;
-                }
-        } catch (\Exception $e) {
-            $this->log($e->getMessage(), ['file' => $e->getFile(), 'line' => $e->getLine()]);
-            $_SESSION['error'] = "Something went wrong please refresh";
-        }
-    }
-
 
     /**
      * Summary of settings - To show website settings

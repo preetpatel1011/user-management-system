@@ -16,7 +16,7 @@ Route::post('/reset-password', 'AuthController@resetPassword');
 Route::post('/logout', 'AuthController@logout');
 
 /**
- * User Routes
+ * User Routes -->
  */
 Route::get('/', 'UserController@index');
 Route::get('/dashboard', 'UserController@dashboard', 'isUser');
@@ -34,11 +34,11 @@ Route::get('/admin/users', 'AdminController@showUsers','isAdmin');
 Route::get('/admin/admin-users', 'AdminController@showAdmin', 'isAdmin');
 Route::get('/admin/user/edit', 'AdminController@edit', 'isAdmin');
 Route::post('/admin/user/update', 'AdminController@update', 'isAdmin');
-Route::post('/admin/user/delete', 'AdminController@destroy', 'isAdmin');
+Route::post('/admin/user/delete', 'UserController@destroy', 'isAdmin');
 Route::get('/admin/edit-profile', 'AdminController@editProfile', 'isAdmin');
 Route::post('/admin/edit-profile', 'AdminController@updateProfile', 'isAdmin');
 Route::post('/admin/reset-password', 'AdminController@changePassword', 'isAdmin');
-Route::post('/admin/user/approved-status', 'AdminController@updateApprovedStatus', 'isAdmin');
-Route::post('/admin/user/active-status', 'AdminController@updateActiveStatus', 'isAdmin');
-Route::get('/admin/settings', 'AdminController@settings', 'isAdmin');
-Route::post('/admin/settings/update', 'AdminController@updateSettings', 'isAdmin');
+Route::post('/admin/user/approved-status', 'UserController@approvedStatus', 'isAdmin');
+Route::post('/admin/user/active-status', 'UserController@activeStatus', 'isAdmin');
+Route::get('/admin/settings', 'SettingsController@settings', 'isAdmin');
+Route::post('/admin/settings', 'SettingsController@updateSettings', 'isAdmin');

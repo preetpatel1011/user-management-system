@@ -30,7 +30,7 @@
                 <?php endif; ?>
                 
                 <div class="settings-card">
-                    <form action="/admin/settings/update" method="POST">
+                    <form action="/admin/settings" method="POST">
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="website_name">Website Name</label>

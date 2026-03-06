@@ -4,6 +4,7 @@ namespace App\Core;
 use App\Controllers\AdminController;
 use App\Controllers\AuthController;
 use App\Controllers\UserController;
+use App\Controllers\SettingController;
 use App\Core\Mailer;
 use App\Services\AdminService;
 use App\Services\AuthService;
@@ -30,16 +31,19 @@ class Router
     private function resolveController(string $controllerClass): object
     {
         return match ($controllerClass) {
+            'App\\Controllers\\AuthController' => new AuthController(
+                new AuthService(new Database(), new MailService(new Mailer()))
+            ),
             'App\\Controllers\\AdminController' => new AdminController(
                 new AdminService(new Database(), new MailService(new Mailer())),
                 new UserService(new Database())
             ),
+            'App\\Controllers\\SettingsController' => new SettingController(
+                new AdminService(new Database(), new MailService(new Mailer()))
+            ),
             'App\\Controllers\\UserController' => new UserController(
                 new UserService(new Database()),
                 new AdminService(new Database(), new MailService(new Mailer()))
-            ),
-            'App\\Controllers\\AuthController' => new AuthController(
-                new AuthService(new Database(), new MailService(new Mailer()))
             ),
             default => new $controllerClass
         };
