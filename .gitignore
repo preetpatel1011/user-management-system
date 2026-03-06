@@ -1,0 +1,37 @@
+# Dependencies
+/vendor/
+
+# Environment
+.env
+.env.backup
+.env.production
+
+# Storage (keep structure, ignore contents)
+/storage/logs/*
+/storage/avatars/*
+!/storage/logs/.gitkeep
+!/storage/avatars/.gitkeep
+
+# Laravel specific
+/bootstrap/cache/*
+!/bootstrap/cache/.gitkeep
+
+# Composer
+composer.phar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Compiled/Build
+/public/hot
+/public/storage
