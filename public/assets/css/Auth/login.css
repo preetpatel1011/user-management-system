@@ -1,0 +1,203 @@
+:root {
+  --primary-dark: #111520;
+  --accent: #6c63ff;
+  --bg: #f0f2f8;
+  --surface: #ffffff;
+  --border: #e2e6f0;
+  --text: #1a1f2e;
+  --text-muted: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100% !important;
+  padding: 0 20px !important;
+}
+.d-flex {
+  display: flex !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.mt-5 {
+  margin-top: 0 !important;
+}
+
+.card {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.08) !important;
+  width: 100% !important;
+  max-width: 420px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  margin: 16px auto !important;
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100% !important;
+    margin: 12px !important;
+    border-radius: 12px !important;
+  }
+}
+
+.p-5 {
+  padding: 0 !important;
+}
+.w-50 {
+  width: 100% !important;
+}
+
+.card form {
+  padding: 36px 32px 28px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 480px) {
+  .card form {
+    padding: 28px 20px 24px !important;
+  }
+}
+
+.card form h2 {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: var(--text) !important;
+  letter-spacing: -0.5px;
+  margin-bottom: 6px !important;
+}
+
+@media (max-width: 480px) {
+  .card form h2 {
+    font-size: 20px !important;
+  }
+}
+
+.alert-danger {
+  background: rgba(239, 68, 68, 0.08) !important;
+  border: 1px solid rgba(239, 68, 68, 0.2) !important;
+  border-radius: 8px !important;
+  color: #dc2626 !important;
+  font-size: 13px !important;
+  padding: 10px 14px !important;
+  margin: 16px 0 4px !important;
+}
+
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+.card form > input[type="email"],
+.card form > input[type="password"] {
+  display: none;
+}
+
+.card form .form-control {
+  width: 100%;
+  background: var(--bg) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 9px !important;
+  padding: 11px 14px !important;
+  font-size: 13.5px !important;
+  font-family: "Sora", sans-serif !important;
+  color: var(--text) !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s !important;
+  display: block !important;
+  margin-top: 18px !important;
+}
+
+.card form .form-control:first-of-type {
+  margin-top: 20px !important;
+}
+
+.card form .form-control:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1) !important;
+  background: #fff !important;
+}
+
+.card form > div {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 4px;
+}
+
+.btn-primary {
+  width: 100%;
+  background: var(--accent) !important;
+  border: none !important;
+  border-radius: 9px !important;
+  padding: 12px !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  font-family: "Sora", sans-serif !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  transition:
+    background 0.15s,
+    transform 0.1s !important;
+  margin: 0 !important;
+}
+
+.btn-primary:hover {
+  background: #7c74ff !important;
+  transform: translateY(-1px);
+}
+
+.card form > div br {
+  display: none !important;
+}
+
+.card form > div > *:not(.btn-primary):not(br) {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+  display: block;
+}
+
+.card form > div a {
+  color: var(--accent) !important;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.card form > div a:hover {
+  text-decoration: underline;
+}
+
+.submitError {
+  font-size: 12px;
+  color: #dc2626;
+  padding: 0 32px 16px;
+  min-height: 0;
+}
+.submitSuccess {
+  font-size: 12px;
+  color: #48e755;
+  padding: 0 32px 16px;
+  min-height: 0;
+}

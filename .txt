@@ -1,0 +1,5 @@
+unlink images done
+titght binding done
+avatar_name 
+strictly types; done
+group wrapper in routes for the same route

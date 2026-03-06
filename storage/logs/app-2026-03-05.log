@@ -1,0 +1,672 @@
+[2026-03-05 09:53:25] app.ERROR: No connection could be made because the target machine actively refused it {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Database.php","line":11,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Database.php(11): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'user_mvc')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AuthService.php(14): App\\Core\\Database::connect()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php(16): App\\Service\\AuthService->__construct()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): App\\Core\\Router::dispatch('/login', 'GET')
+#5 {main}"} 
+[2026-03-05 10:35:39] app.ERROR: Class "App\Services\Database" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AuthService.php","line":14,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php(16): App\\Service\\AuthService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Core\\Router::dispatch('/reset', 'GET')
+#3 {main}"} 
+[2026-03-05 12:26:35] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:26:35] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:29:21] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:29:21] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:31:25] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:31:26] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:31:26] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:31:26] app.ERROR: Too few arguments to function App\Controllers\AuthController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AuthController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/login', 'GET')
+#2 {main}"} 
+[2026-03-05 12:36:14] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:36:58] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:36:59] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:00] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:00] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:00] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:20] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:21] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:21] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:21] app.ERROR: Too few arguments to function App\Services\AdminService::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Controllers\AdminController.php on line 19 and exactly 2 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php","line":12,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(19): App\\Service\\AdminService->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:37:47] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin/../layouts/header.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\dasboard.php","line":6,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(30): App\\Core\\Controller->view('admin/dasboard', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->adminDashboard()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#4 {main}"} 
+[2026-03-05 12:38:55] app.ERROR: Call to undefined method App\Controllers\AdminController::adminDashboard() {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":30,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#1 {main}"} 
+[2026-03-05 12:39:16] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":9,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(30): App\\Core\\Controller->view('admin/', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->index()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/dashboar...', 'GET')
+#3 {main}"} 
+[2026-03-05 12:55:36] app.ERROR: Too few arguments to function App\Controllers\UserController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":14,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\UserController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/dashboard', 'GET')
+#2 {main}"} 
+[2026-03-05 13:01:15] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/header.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":6,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:01:34] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/header.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":6,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:01:35] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/sidebar.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":13,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:01:35] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/sidebar.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":13,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:01:35] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/sidebar.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":13,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:05] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/navbar.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":15,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:13] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:13] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit_user_profile.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:36] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:36] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:36] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:37] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:37] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 13:02:37] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(78): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 14:04:18] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(47): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:04:19] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(47): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:07:16] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(48): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:07:17] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(48): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:07:17] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(48): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:07:19] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(79): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/edi...', 'GET')
+#4 {main}"} 
+[2026-03-05 14:13:17] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:13:17] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:13:34] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/dasboard.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":9,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(235): App\\Core\\Controller->view('admin/dasboard', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->adminChangePassword()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/reset-pa...', 'POST')
+#3 {main}"} 
+[2026-03-05 14:16:10] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:17:26] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:21:32] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:25:54] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:26:05] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:26:06] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:26:12] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/users/index.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":9,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php(28): App\\Core\\Controller->view('users/index', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\UserController->index()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/dashboard', 'GET')
+#3 {main}"} 
+[2026-03-05 14:30:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:30:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:30:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:30:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:30:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:32:33] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:32:35] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:32:45] app.ERROR: Mailer Error: SMTP Error: data not accepted. SMTP server error: DATA command failed Detail: Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing
+ SMTP code: 550 Additional SMTP info: 5.7.0 {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Mailer.php","line":40,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\MailService.php(123): App\\Core\\Mailer->send('concrete55@gmai...', 'Rejected', '\\r\\n        <html...')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php(206): App\\Service\\MailService->sendRejectMail('concrete55@gmai...', 'Preet Patel')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(254): App\\Service\\AdminService->updateUserApprovalStatus(52, 0)
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->adminUpdateUserApprovedStatus()
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/app...', 'POST')
+#5 {main}"} 
+[2026-03-05 14:32:49] app.ERROR: Mailer Error: SMTP Error: data not accepted. SMTP server error: DATA command failed Detail: Too many emails per second. Please upgrade your plan https://mailtrap.io/billing/plans/testing
+ SMTP code: 550 Additional SMTP info: 5.7.0 {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Mailer.php","line":40,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\MailService.php(123): App\\Core\\Mailer->send('hello@gmail.com', 'Rejected', '\\r\\n        <html...')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Service\\AdminService.php(206): App\\Service\\MailService->sendRejectMail('hello@gmail.com', 'Preet')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(254): App\\Service\\AdminService->updateUserApprovalStatus(51, 0)
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->adminUpdateUserApprovedStatus()
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/user/app...', 'POST')
+#5 {main}"} 
+[2026-03-05 14:33:24] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:34:48] app.ERROR: Class "App\Services\AdminService" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":19,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#2 {main}"} 
+[2026-03-05 14:34:49] app.ERROR: Class "App\Services\AdminService" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":19,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#2 {main}"} 
+[2026-03-05 14:35:28] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:50:31] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(52): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 14:59:33] app.ERROR: syntax error, unexpected identifier "Route" {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":26,"trace":"#0 {main}"} 
+[2026-03-05 14:59:41] app.ERROR: syntax error, unexpected identifier "Route" {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":26,"trace":"#0 {main}"} 
+[2026-03-05 15:11:21] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(57): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 15:12:12] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(57): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 15:25:00] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(57): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 15:25:03] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(57): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 15:28:59] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(9): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(57): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 16:10:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:30] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:31] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:32] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:33] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:33] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:33] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:34] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:34] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:34] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:34] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:34] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:35] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:36] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:41] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:41] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:41] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:42] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:52] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:52] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:52] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:53] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:55] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:55] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:56] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:11:57] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:02] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:02] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:02] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:02] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:02] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:03] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:04] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:04] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:04] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:16] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:17] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:18] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:48] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:48] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:48] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:48] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:49] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:12:50] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:13:12] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:14:51] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":33} 
+[2026-03-05 16:23:59] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(31): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 16:24:01] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":96} 
+[2026-03-05 16:35:23] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":29} 
+[2026-03-05 16:39:29] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":31} 
+[2026-03-05 16:40:37] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":32} 
+[2026-03-05 16:40:37] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":32} 
+[2026-03-05 16:40:37] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":32} 
+[2026-03-05 16:40:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":34} 
+[2026-03-05 16:40:54] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php","line":34} 
+[2026-03-05 16:42:39] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":29} 
+[2026-03-05 16:42:44] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":29} 
+[2026-03-05 16:42:58] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":29} 
+[2026-03-05 16:43:24] app.ERROR: Test error from dashboard {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AuthController.php","line":29} 
+[2026-03-05 16:45:08] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(31): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 16:45:14] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(31): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Core\\Router::dispatch('/admin/users', 'GET')
+#4 {main}"} 
+[2026-03-05 16:51:48] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:51:48] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:51:48] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:51:49] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:52:18] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:52:18] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:53:28] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:53:29] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:53:29] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:53:29] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:54:02] app.ERROR: Class "App\Contracts\Facade\Route" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\routes\\web.php","line":7,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(51): require_once()
+#1 {main}"} 
+[2026-03-05 16:58:20] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->usersList()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(22): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(53): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 17:10:54] app.ERROR: Too few arguments to function App\Controllers\AdminController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 30 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":16,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(30): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 17:20:41] app.ERROR: Too few arguments to function App\Controllers\AdminController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 43 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":16,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 17:22:01] app.ERROR: Class "App\Middleware\isAdmin" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":37,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#2 {main}"} 
+[2026-03-05 17:22:02] app.ERROR: Class "App\Middleware\isAdmin" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":37,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#2 {main}"} 
+[2026-03-05 17:22:25] app.ERROR: Too few arguments to function App\Controllers\AdminController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 43 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":16,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 17:22:44] app.ERROR: Too few arguments to function App\Controllers\AdminController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 43 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":16,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 17:23:23] app.ERROR: Class "App\Middleware\isAdmin" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":37,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#2 {main}"} 
+[2026-03-05 17:25:41] app.ERROR: Too few arguments to function App\Controllers\AdminController::__construct(), 0 passed in D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core\Router.php on line 43 and exactly 1 expected {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php","line":16,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->__construct()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/dashboar...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 17:40:29] app.ERROR: Call to undefined method App\Controllers\AdminController::showUser() {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":43,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#2 {main}"} 
+[2026-03-05 17:41:13] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 17:41:16] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 18:00:55] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 18:01:05] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(64): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(43): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 18:16:03] app.ERROR: Class "App\Servicess\UserService" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":36,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(68): App\\Core\\Router->resolveController('App\\\\Controllers...')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/dashboard', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 18:33:00] app.ERROR: Class "App\Services\AuthService" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":41,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(70): App\\Core\\Router->resolveController('App\\\\Controllers...')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/reset', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-05 18:34:29] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 18:44:24] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:00:44] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:00:50] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:01:23] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:01:26] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:01:30] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\users.php","line":151,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:03:37] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(121): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/user/edi...', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:03:40] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\user/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\user\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(121): App\\Core\\Controller->view('admin/user/edit', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/user/edi...', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-05 19:04:47] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/users/edit.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":10,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\UserController.php(94): App\\Core\\Controller->view('users/edit_prof...', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\UserController->update()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/profile/update', 'POST')
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#4 {main}"} 

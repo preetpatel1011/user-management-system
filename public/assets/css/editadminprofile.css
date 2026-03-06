@@ -1,0 +1,202 @@
+
+        :root {
+            --primary-dark: #111520;
+            --accent: #6c63ff;
+            --bg: #f0f2f8;
+            --surface: #ffffff;
+            --border: #e2e6f0;
+            --text: #1a1f2e;
+            --text-muted: #6b7280;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Sora', 'Segoe UI', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ── Topbar ── */
+        .topbar {
+            background: var(--primary-dark);
+            height: 62px;
+            display: flex;
+            align-items: center;
+            padding: 0 28px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+        }
+
+        .topbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #fff;
+            font-weight: 700;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .topbar-brand::before {
+            content: '';
+            display: inline-block;
+            width: 28px; height: 28px;
+            background: linear-gradient(135deg, var(--accent), #9c8bff);
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        /* ── Page body ── */
+        .page-body {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 48px 20px;
+        }
+
+        /* ── Card ── */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            width: 100%;
+            max-width: 480px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 24px 28px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card-icon {
+            width: 38px; height: 38px;
+            background: rgba(108,99,255,0.12);
+            border-radius: 10px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .card-header h2 {
+            font-size: 17px !important;
+            font-weight: 600 !important;
+            color: var(--text) !important;
+            letter-spacing: -0.3px;
+            margin: 0 !important;
+        }
+
+        .card-header p {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin: 2px 0 0;
+        }
+
+        /* ── Form ── */
+        .card-body {
+            padding: 28px;
+        }
+
+        .alert-danger {
+            background: rgba(239,68,68,0.08) !important;
+            border: 1px solid rgba(239,68,68,0.2) !important;
+            border-radius: 8px !important;
+            color: #dc2626 !important;
+            font-size: 13px !important;
+            padding: 10px 14px !important;
+            margin-bottom: 20px !important;
+        }
+
+        .mb-3 { margin-bottom: 18px; }
+
+        .form-label {
+            display: block;
+            font-size: 11px !important;
+            font-weight: 600 !important;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: var(--text-muted) !important;
+            margin-bottom: 6px !important;
+        }
+
+        .form-control {
+            width: 100%;
+            background: var(--bg) !important;
+            border: 1px solid var(--border) !important;
+            border-radius: 9px !important;
+            padding: 11px 14px !important;
+            font-size: 14px !important;
+            font-family: 'Sora', sans-serif !important;
+            color: var(--text) !important;
+            transition: border-color 0.15s, box-shadow 0.15s !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+
+        .form-control:focus {
+            border-color: var(--accent) !important;
+            box-shadow: 0 0 0 3px rgba(108,99,255,0.1) !important;
+            background: #fff !important;
+        }
+
+        /* ── Buttons ── */
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 24px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+
+        .btn-primary {
+            background: var(--accent) !important;
+            border: none !important;
+            border-radius: 9px !important;
+            padding: 10px 22px !important;
+            font-size: 13.5px !important;
+            font-weight: 500 !important;
+            font-family: 'Sora', sans-serif !important;
+            color: #fff !important;
+            cursor: pointer !important;
+            transition: background 0.15s, transform 0.1s !important;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-primary:hover {
+            background: #7c74ff !important;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background: transparent !important;
+            border: 1px solid var(--border) !important;
+            border-radius: 9px !important;
+            padding: 10px 22px !important;
+            font-size: 13.5px !important;
+            font-weight: 500 !important;
+            font-family: 'Sora', sans-serif !important;
+            color: var(--text-muted) !important;
+            cursor: pointer !important;
+            transition: all 0.15s !important;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg) !important;
+            color: var(--text) !important;
+            border-color: #c9cfe0 !important;
+        }
+
+        .ms-2 { margin-left: 0 !important; } /* reset — handled by gap */

@@ -1,0 +1,30 @@
+[2026-03-06 10:08:01] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/user/users.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":10,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/user/user...', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(71): App\\Controllers\\AdminController->showUsers()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#4 {main}"} 
+[2026-03-06 10:09:30] app.ERROR: Class "App\Controllers\" not found {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php","line":43,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(70): App\\Core\\Router->resolveController('App\\\\Controllers...')
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users/ed...', 'GET')
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#3 {main}"} 
+[2026-03-06 10:12:47] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Views\admin\users/../layouts/footer.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Views\\admin\\users\\edit.php","line":92,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php(10): require()
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(121): App\\Core\\Controller->view('admin/users/edi...', Array)
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(77): App\\Controllers\\AdminController->edit()
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/user/edi...', 'GET')
+#4 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#5 {main}"} 
+[2026-03-06 10:14:00] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/users/inde.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":10,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/users/ind...', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(77): App\\Controllers\\AdminController->showUsers()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#4 {main}"} 
+[2026-03-06 10:14:00] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/users/inde.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":10,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/users/ind...', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(77): App\\Controllers\\AdminController->showUsers()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#4 {main}"} 
+[2026-03-06 10:14:00] app.ERROR: Failed opening required 'D:\Wampp\www\php_mvc_skeleton_user_mng\app\Core/../Views/admin/users/inde.php' (include_path='D:\Xampp\php\PEAR') {"file":"D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Controller.php","line":10,"trace":"#0 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Controllers\\AdminController.php(63): App\\Core\\Controller->view('admin/users/ind...', Array)
+#1 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Core\\Router.php(77): App\\Controllers\\AdminController->showUsers()
+#2 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\app\\Contracts\\Route.php(21): App\\Core\\Router->dispatch('/admin/users', 'GET')
+#3 D:\\Wampp\\www\\php_mvc_skeleton_user_mng\\public\\index.php(54): App\\Contracts\\Route::__callStatic('dispatch', Array)
+#4 {main}"}
